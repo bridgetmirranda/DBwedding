@@ -1,0 +1,525 @@
+
+ 
+/* === GLOBAL ---*/
+
+html, body {
+  font-family: 'Poppins', serif;
+  height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h4 {
+  letter-spacing: .1em;
+}
+
+
+p {
+  margin: 0 0 15px;
+  font-size: 14px;
+}
+
+p a {
+  color: #DE5D83;
+}
+
+span a {
+  color: #DE5D83;
+}
+
+span a:hover {
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: none;
+  color: ;
+}
+
+@font-face {
+  font-family: hm;
+  src: url('../fonts/HAMILLTON.ttf');
+}
+
+
+
+
+/* === NAVIAGTION ===  */
+
+.navbar-default {
+  background: #fff;
+  position: relative;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+  font-family: 'Poppins', serif;
+  color: black;
+  font-size: 14px;
+  letter-spacing: .15em; 
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+
+.navbar-brand {
+  color: black;
+  font-weight: 500;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+
+
+/* === HEADER PIC === */
+
+
+#hero {
+  background-image: url(../images/db1.jpg);
+  height: 100%;
+  background-color: black;
+  background-repeat: no-repeat;
+  padding-top: 85px;
+}
+
+
+.hero-text {
+  color: #fcfbfb;
+  font-family: 'Raleway', serif;
+  /*position: absolute;
+  top: 22%;*/
+  text-align: center;
+  /*left: 35%;*/
+  padding: 50px 0;
+  position: relative;
+}
+
+.hero-text h1{
+  color: #fcfbfb;
+  font-size: 85px;
+  text-transform: capitalize;
+  font-family: 'hm', cursive;
+}
+
+.hero-text h3 {
+  font-size: 26px;
+  font-family: 'Raleway', serif;
+  letter-spacing: .1em;
+}
+
+
+/* ========= BODY ======= */
+ 
+#love {
+  background-color: #fafafa;
+  padding: 50px 0;
+}
+
+#love h1, h4 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#love h1 {
+  font-family: 'hm', serif;
+  font-weight: 600;
+}
+
+#love h4 {
+  font-family: 'Raleway', serif;
+
+}
+
+
+#love p {
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: grey;
+  font-family: 'Poppins', serif;
+  line-height: 2em;
+  padding-top: 15px;
+}
+
+
+
+
+#yes .container {
+  background: url(../images/isaidyes.png) 10% -2px no-repeat;
+  height: 600px;
+}
+
+.isaidyes {
+  padding-top: 180px;
+  text-align: center;
+  letter-spacing: 0.1em;
+ } 
+
+ #yes p {
+   font-family: 'Raleway', serif;
+   font-size: 22px;
+   letter-spacing: .1em;
+   padding-top: 10px;
+   text-transform: lowercase;
+ }
+
+ #yes h1 {
+      font-family: 'hm', serif;
+      font-size: 80px;
+ }
+
+.happy {
+  background: #DE5D8380;
+}
+
+
+#story {
+  padding: 50px 0;
+  background-color: #fafafa;
+}
+
+#story h1, h4 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#story h1 {
+  font-family: 'hm', serif;
+  font-weight: 600;
+}
+
+#story h4 {
+  font-family: 'Raleway', serif;
+}
+
+#story p {
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: grey;
+  font-family: 'Poppins', serif;
+  line-height: 2em;
+  padding-top: 15px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    /*background: #fff;
+    box-shadow: 0 10px 38px 0px rgba(0, 0, 0, 0.04);*/
+    padding: 7px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+#gallery {
+  padding: 50px 0;
+  background-color: black;
+}
+
+#gallery h1 {
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-family: 'Raleway', serif;
+  color: #fcfbfb;
+}
+
+#gallery h6 {
+  color: #fff;
+}
+
+
+#weddetails {
+  padding: 50px 0 50px 0;
+}
+
+.detail {
+    display: inline-block;
+    color: #848785;
+    text-align: left;
+}
+
+#weddetails h1 {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 42px;
+  letter-spacing: .12em;
+  font-family: 'Poppins', serif;
+}
+
+.detail h3 {
+  text-align: left;
+  font-family: 'Raleway', serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: .12em;
+  color: black;
+}
+
+.detail span, p {
+  letter-spacing: .11em;
+  font-weight: 400;
+}
+
+.detail b {
+  color: black;
+}
+
+#registry {
+  padding: 20px 0 50px 0;
+}
+
+
+#registry h1 {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 42px;
+  letter-spacing: .12em;
+  font-family: 'Poppins', serif;
+}
+
+
+.buy {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: .12em;
+  color: black;
+  font-family: 'Raleway', serif;
+}
+
+
+#save {
+  background: url(../images/funny.png) 90% -20px no-repeat;
+  height: 500px;
+  background-color: #fafafa;
+  padding-top: 50px;
+  text-align: center;
+}
+
+#save h1 {
+  font-family: 'hm', serif;
+  padding: 15px 0;
+  font-size: 50px;
+}
+
+#save p {
+  font-family: 'Raleway', serif;
+  font-size: 24px;
+  text-transform: lowercase;
+  padding: 0;
+}
+
+#save a {
+  color: black;
+}
+
+#save a:hover {
+  text-decoration: none;
+}
+
+
+
+
+footer #logo {
+  color: black;
+  font-weight: 500;
+  letter-spacing: .5em;
+  text-transform: uppercase;
+  font-size: 18px;
+  float: left
+}
+
+footer {
+  background: #fff;
+  padding: 20px 0 20px;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Poppins', serif;
+
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a:hover {
+  color: #dd5638;
+  text-decoration: none;
+}
+
+
+/* Save the Date page */
+
+
+.savethedate {
+  background: url(../images/bryant2.jpg);
+  background-color: #fafafa;
+  color: white;
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.savethedate h1 {
+  font-family: 'hm', Dancing Script, cursive;
+  font-size: 60px;
+  text-align: center;
+  padding: 50px 0 10px 0;
+  font-weight: 500;
+}
+
+.savethedate p {
+  text-align: center;
+  line-height: 1.75em;
+  text-transform: uppercase;
+  letter-spacing: .22em;
+  font-size: 12px;
+}
+
+
+#text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  letter-spacing: .05em; 
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+#text2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: .15em;
+  text-transform: lowercase;
+}
+
+.details {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Raleway', san-serif;
+  letter-spacing: .15em;
+  padding: 15px;
+  background-color: #fafafa;
+  height: 50%;
+}
+
+.details p {
+  text-transform: lowercase;
+}
+
+.details h4 {
+  padding-top: 20px;
+  color: black;
+  font-size: 14px;
+  margin: 25px;
+}
+
+.details h5 {
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: lowercase;
+}
+
+
+
+/* ==== RESPONSIVE ==== */
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+
+   
+}
+
+
+@media screen and ( max-width : 991px ) {
+
+  #save .container {
+    background: rgba(255,255,255,0.5);
+    padding: 20px;
+    height: 60%;
+  }
+
+  #save {
+    background: url(../images/funny.png) 50% no-repeat;
+  }
+
+  #save h1 {
+    padding: 0;
+    font-weight: 500;
+  }
+
+  #save p {
+    padding: 0;
+    font-weight: 600;
+  }
+
+  .happy  {
+    color: white;
+    font-weight: 400;
+    width: 100%;
+  }
+
+  .hero-text {
+    width: 100%;
+    padding: 73px 0;
+    top: 25%;
+    left: 0;
+    text-align: center;
+  }
+  .hero-text h1 {
+    font-size: 48px;
+  }
+
+  .hero-text h3 {
+    font-size: 18px;
+  }
+
+
+  footer #logo {
+    font-size: 20px;
+  }
+
+}
+
+
+
+
+
+
